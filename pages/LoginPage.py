@@ -1,6 +1,11 @@
 from selenium.webdriver.common.by import By
 
-from BasePage import BasePage
+from pages.BasePage import BasePage
+
+
+__all__ = [
+    "LoginPage"
+]
 
 
 class LoginPage(BasePage):
